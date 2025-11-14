@@ -11,14 +11,14 @@ const ConsultationSection: React.FC = () => {
                  bg-black text-white transition-all duration-500"
       style={{ minHeight: "30vh" }}
     >
-         {/* <video
+         <video
           src={bgvideo}
           autoPlay
           loop
           muted
           playsInline
           className="absolute inset-0 w-full h-full object-cover opacity-80"
-        /> */}
+        />
       
       {/* 🟡 Left: Golden Heading */}
       <div className="flex-1 text-center md:text-left">

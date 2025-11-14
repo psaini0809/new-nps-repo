@@ -38,14 +38,14 @@ const CustomerReviewsSection: React.FC = () => {
           "radial-gradient(circle at center, rgba(20,20,20,1) 0%, rgba(5,5,5,1) 100%)",
       }}
     >
-        {/* <video
+        <video
           src={bgvideo}
           autoPlay
           loop
           muted
           playsInline
           className="absolute inset-0 w-full h-full object-cover opacity-80"
-        /> */}
+        />
       {/* 🌟 Background pattern */}
       <div className="absolute inset-0 opacity-10 pointer-events-none">
         <div

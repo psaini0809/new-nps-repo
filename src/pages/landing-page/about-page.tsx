@@ -53,14 +53,14 @@ const AboutSection: React.FC<AboutSectionProps> = ({
   className="relative overflow-hidden flex flex-col items-center justify-center px-4 sm:px-6 md:px-10 min-h-[110vh]"
 >
   {/* 🔥 Background Video */}
-  {/* <video
+  <video
     src={bgvideo}
     autoPlay
     loop
     muted
     playsInline
-    className="absolute inset-0 w-full h-full object-cover opacity-[2%]"
-  /> */}
+    className="absolute inset-0 w-full h-full object-cover opacity-80"
+  />
 
       {/* ✨ Background Pattern */}
       <GoldenParticles />
