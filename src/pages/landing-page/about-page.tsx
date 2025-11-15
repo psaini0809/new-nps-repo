@@ -47,20 +47,20 @@ const AboutSection: React.FC<AboutSectionProps> = ({
   }, [isHovered, currentIndex]);
 
   return (
-  <section
-  id="about"
-  ref={(el) => (sectionRefs.current.about = el)}
-  className="relative overflow-hidden flex flex-col items-center justify-center px-4 sm:px-6 md:px-10 min-h-[110vh]"
->
-  {/* 🔥 Background Video */}
-  <video
-    src={bgvideo}
-    autoPlay
-    loop
-    muted
-    playsInline
-    className="absolute inset-0 w-full h-full object-cover opacity-80"
-  />
+    <section
+      id="about"
+      ref={(el) => (sectionRefs.current.about = el)}
+      className="relative overflow-hidden flex flex-col items-center justify-center px-4 sm:px-6 md:px-10 min-h-[110vh]"
+    >
+      {/* 🔥 Background Video */}
+      <video
+        src={bgvideo}
+        autoPlay
+        loop
+        muted
+        playsInline
+        className="absolute inset-0 w-full h-full object-cover opacity-80"
+      />
 
       {/* ✨ Background Pattern */}
       <GoldenParticles />
@@ -90,7 +90,7 @@ const AboutSection: React.FC<AboutSectionProps> = ({
           </span>
         </h2>
 
-        <p className="text-base sm:text-lg md:text-xl text-gray-300 leading-relaxed px-2">
+        <p className="text-base sm:text-lg md:text-xl text-white leading-relaxed px-2">
           Leading real estate company specializing in premium property sales and
           purchases across Noida, Greater Noida, and Yamuna Expressway. We
           deliver excellence in every transaction.
@@ -158,12 +158,7 @@ const AboutSection: React.FC<AboutSectionProps> = ({
                     z,
                     scale,
                     opacity,
-                    rotateY:
-                      offset === 1
-                        ? -15
-                        : offset === total - 1
-                        ? 15
-                        : 0,
+                    rotateY: offset === 1 ? -15 : offset === total - 1 ? 15 : 0,
                   }}
                   transition={{ duration: 0.8, ease: "easeInOut" }}
                 >
@@ -192,10 +187,6 @@ const AboutSection: React.FC<AboutSectionProps> = ({
           <ChevronRight size={24} className="sm:w-8 sm:h-8" />
         </button>
       </div>
-
-
-
-
     </section>
   );
 };

@@ -30,19 +30,23 @@ const ProjectsGreaterNoida = () => {
   return (
     <div className="min-h-screen flex flex-col">
       <Navigation />
-      <SocialSidebar/>
+      <SocialSidebar />
       <main className="flex-1">
         {/* Header */}
         <section
-        className="relative text-primary-foreground py-20 shadow-lg bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: `url(${bg1})` }}
+          className="relative text-primary-foreground py-20 shadow-lg bg-cover bg-center bg-no-repeat"
+          style={{ backgroundImage: `url(${bg1})` }}
         >
           <div className="container mx-auto px-4 text-center">
             <h1 className="font-serif text-white text-4xl md:text-5xl font-bold mb-4 drop-shadow-lg">
-            Our Properties in <span className="text-gold bg-gradient-to-r from-gold to-yellow-300 bg-clip-text text-transparent animate-shimmer bg-[length:200%_100%]">Greater Noida</span>
+              Our Properties in{" "}
+              <span className="text-gold bg-gradient-to-r from-gold to-yellow-300 bg-clip-text text-transparent animate-shimmer bg-[length:200%_100%]">
+                Greater Noida
+              </span>
             </h1>
             <p className="text-lg text-white max-w-2xl mx-auto">
-              Discover premium residential and commercial spaces in Greater Noida
+              Discover premium residential and commercial spaces in Greater
+              Noida
             </p>
           </div>
         </section>
@@ -51,10 +55,12 @@ const ProjectsGreaterNoida = () => {
         <section className="py-12 ">
           <div className="container mx-auto px-4">
             <div className="max-w-3xl mx-auto">
-              <p className="text-lg text-muted-foreground leading-relaxed text-center">
-                Greater Noida is emerging as a major educational and industrial hub with excellent
-                infrastructure. Our properties in Greater Noida offer strategic locations, modern amenities,
-                and strong growth potential for both residential and commercial investments.
+              <p className="text-lg text-white text-muted-foreground leading-relaxed text-center">
+                Greater Noida is emerging as a major educational and industrial
+                hub with excellent infrastructure. Our properties in Greater
+                Noida offer strategic locations, modern amenities, and strong
+                growth potential for both residential and commercial
+                investments.
               </p>
             </div>
           </div>
@@ -70,13 +76,13 @@ const ProjectsGreaterNoida = () => {
             </div>
           </div>
         </section>
-                     <div className="w-full flex mt-10 justify-end overflow-hidden leading-none">
-  <img
-    src={belowBg}
-    alt="Bottom Decoration"
-    className="w-[350px] md:w-[500px] h-auto object-cover opacity-90"
-  />
-</div>
+        <div className="w-full flex mt-10 justify-end overflow-hidden leading-none">
+          <img
+            src={belowBg}
+            alt="Bottom Decoration"
+            className="w-[350px] md:w-[500px] h-auto object-cover opacity-90"
+          />
+        </div>
       </main>
 
       <Footer />

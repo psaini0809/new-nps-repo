@@ -19,17 +19,17 @@ const Testimonials: React.FC = () => {
   ];
 
   return (
-    <div className="min-h-screen flex flex-col"
-     style={{
+    <div
+      className="min-h-screen flex flex-col"
+      style={{
         minHeight: "120vh",
         background:
           "radial-gradient(circle at center, rgba(50,50,50,1) 0%, rgba(5,5,5,1) 100%)",
       }}
     >
       <Navigation />
-      <SocialSidebar/>
-      <main className="flex-1"
-      >
+      <SocialSidebar />
+      <main className="flex-1">
         {/* Header */}
         <section
           className="relative text-primary-foreground py-20 shadow-lg bg-cover bg-center bg-no-repeat"
@@ -38,10 +38,13 @@ const Testimonials: React.FC = () => {
           <div className="absolute inset-0 bg-black/40" />
           <div className="container relative z-10 mx-auto px-4 flex flex-col justify-center items-center text-center">
             <h1 className="font-serif text-white text-4xl md:text-5xl font-bold mb-4">
-            Client <span className="text-gold bg-gradient-to-r from-gold to-yellow-300 bg-clip-text text-transparent animate-shimmer bg-[length:200%_100%]">Testimonials</span>
+              Client{" "}
+              <span className="text-gold bg-gradient-to-r from-gold to-yellow-300 bg-clip-text text-transparent animate-shimmer bg-[length:200%_100%]">
+                Testimonials
+              </span>
             </h1>
             <p className="text-lg text-white max-w-3xl">
-            Hear what our satisfied clients have to say about us
+              Hear what our satisfied clients have to say about us
             </p>
           </div>
         </section>
@@ -50,9 +53,9 @@ const Testimonials: React.FC = () => {
         <section className="py-16 bg-background">
           <div className="container mx-auto px-4">
             <div className="max-w-5xl mx-auto mb-12 text-center">
-              <p className="text-lg text-muted-foreground">
-                Experience real stories directly from our Instagram — where clients share their
-                journeys and experiences with NPS Estates.
+              <p className="text-lg text-white text-muted-foreground">
+                Experience real stories directly from our Instagram — where
+                clients share their journeys and experiences with NPS Estates.
               </p>
             </div>
 
@@ -66,25 +69,22 @@ const Testimonials: React.FC = () => {
                   rel="noopener noreferrer"
                   className="rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-all duration-300 border border-border bg-card  w-full max-w-[328px]"
                 >
-                  <InstagramEmbed
-                    url={url}
-                    width={328}                  
-                  />
+                  <InstagramEmbed url={url} width={328} />
                 </a>
               ))}
             </div>
           </div>
         </section>
-      
+
         <StatsSection />
 
-              <div className="w-full flex mt-10 justify-end overflow-hidden leading-none">
-  <img
-    src={belowBg}
-    alt="Bottom Decoration"
-    className="w-[350px] md:w-[500px] h-auto object-cover opacity-90"
-  />
-</div>
+        <div className="w-full flex mt-10 justify-end overflow-hidden leading-none">
+          <img
+            src={belowBg}
+            alt="Bottom Decoration"
+            className="w-[350px] md:w-[500px] h-auto object-cover opacity-90"
+          />
+        </div>
       </main>
 
       <Footer />

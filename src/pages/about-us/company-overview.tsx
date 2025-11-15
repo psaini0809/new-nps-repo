@@ -22,10 +22,7 @@ const fadeRight = {
 
 const CompanyOverview: React.FC = () => {
   return (
-    <section
-      className="relative py-20 text-white overflow-hidden"
-     
-    >
+    <section className="relative py-20 text-white overflow-hidden">
       <GoldenParticles />
 
       <div className="container mx-auto px-4">
@@ -42,13 +39,13 @@ const CompanyOverview: React.FC = () => {
               <span className="text-gold">for Life</span>
             </h2>
 
-            <p className="text-lg md:text-xl text-gray-300 leading-relaxed">
+            <p className="text-lg md:text-xl text-white leading-relaxed">
               By Profession, Mr. T Chandra is a Mechanical Engineer with
               extensive experience working in leading multinational companies
               across Japan, the US, and Europe. His global exposure allows him
-              to connect deeply with professionals and individuals seeking
-              real estate solutions that align with their lifestyle, budget,
-              and investment goals.
+              to connect deeply with professionals and individuals seeking real
+              estate solutions that align with their lifestyle, budget, and
+              investment goals.
             </p>
 
             <p className="text-lg md:text-xl text-gray-300 leading-relaxed">
@@ -57,9 +54,9 @@ const CompanyOverview: React.FC = () => {
                 Noida Property Solution
               </span>
               , our mission is simple: to help people find their dream homes
-              through honest, transparent, and timely real estate services.
-              We are driven by selfless service, ensuring that every client
-              feels valued and confident throughout their property journey.
+              through honest, transparent, and timely real estate services. We
+              are driven by selfless service, ensuring that every client feels
+              valued and confident throughout their property journey.
             </p>
 
             <p className="text-lg md:text-xl text-gray-300 leading-relaxed">
@@ -71,10 +68,9 @@ const CompanyOverview: React.FC = () => {
             </p>
 
             <p className="text-lg md:text-xl text-gray-300 leading-relaxed">
-              With{" "}
-              <span className="text-gold font-semibold">NPS Estates</span>, you
-              don’t just get a property — you gain a trusted partner dedicated
-              to turning your real estate dreams into reality.
+              With <span className="text-gold font-semibold">NPS Estates</span>,
+              you don’t just get a property — you gain a trusted partner
+              dedicated to turning your real estate dreams into reality.
             </p>
           </motion.div>
 
@@ -108,16 +104,16 @@ const CompanyOverview: React.FC = () => {
           </motion.div>
         </motion.div>
       </div>
-    <div className="w-full flex mt-2 justify-end overflow-hidden leading-none">
-  <img
-    src={belowBg}
-    alt="Bottom Decoration"
-    className="
+      <div className="w-full flex mt-2 justify-end overflow-hidden leading-none">
+        <img
+          src={belowBg}
+          alt="Bottom Decoration"
+          className="
       w-[220px] sm:w-[300px] md:w-[400px] lg:w-[500px]
       h-auto object-cover opacity-90 transition-all duration-500
     "
-  />
-</div>
+        />
+      </div>
     </section>
   );
 };

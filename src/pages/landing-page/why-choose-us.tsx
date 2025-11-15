@@ -37,14 +37,14 @@ const WhyChooseSection: React.FC<WhyChooseSectionProps> = ({
       ref={(el) => (sectionRefs.current["why-choose"] = el)}
       className="relative py-24 text-white overflow-hidden"
     >
-         <video
-          src={bgvideo}
-          autoPlay
-          loop
-          muted
-          playsInline
-          className="absolute inset-0 w-full h-full object-cover opacity-80"
-        />
+      <video
+        src={bgvideo}
+        autoPlay
+        loop
+        muted
+        playsInline
+        className="absolute inset-0 w-full h-full object-cover opacity-80"
+      />
       {/* Floating Gold Glows */}
       <div className="absolute inset-0 opacity-20 pointer-events-none">
         <div className="absolute top-24 left-12 w-72 h-72 bg-gold/60 rounded-full blur-3xl animate-pulse-slow" />
@@ -69,7 +69,7 @@ const WhyChooseSection: React.FC<WhyChooseSectionProps> = ({
               NPS?
             </span>
           </h2>
-          <p className="text-base md:text-lg text-gray-400 max-w-2xl mx-auto">
+          <p className="text-base md:text-lg text-white max-w-2xl mx-auto">
             Experience unmatched trust, transparency, and expert service.
           </p>
         </div>
@@ -96,7 +96,7 @@ const WhyChooseSection: React.FC<WhyChooseSectionProps> = ({
 
               {/* Icon */}
               <div className="relative inline-flex items-center justify-center w-16 h-16 rounded-full bg-gradient-to-tr from-gold/20 to-yellow-500/10 mb-6 group-hover:scale-110 transition-transform duration-500 shadow-inner">
-                <img src={item.src}/>
+                <img src={item.src} />
               </div>
 
               {/* Title */}
@@ -105,7 +105,7 @@ const WhyChooseSection: React.FC<WhyChooseSectionProps> = ({
               </h3>
 
               {/* Description */}
-              <p className="text-gray-300 leading-relaxed text-sm md:text-base">
+              <p className="text-white leading-relaxed text-sm md:text-base">
                 {item.desc}
               </p>
 

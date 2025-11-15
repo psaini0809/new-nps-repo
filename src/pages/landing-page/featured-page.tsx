@@ -104,13 +104,13 @@ const PropertiesSection: React.FC<PropertiesSectionProps> = ({
       className="relative py-10 overflow-hidden"
     >
       <video
-          src={bgvideo}
-          autoPlay
-          loop
-          muted
-          playsInline
-          className="absolute inset-0 w-full h-full object-cover opacity-80"
-        />
+        src={bgvideo}
+        autoPlay
+        loop
+        muted
+        playsInline
+        className="absolute inset-0 w-full h-full object-cover opacity-80"
+      />
       <div className="container mx-auto px-4 relative z-10">
         {/* Header */}
         <div
@@ -129,7 +129,7 @@ const PropertiesSection: React.FC<PropertiesSectionProps> = ({
               </span>
             </span>
           </h2>
-          <p className="text-base md:text-lg text-gray-400 max-w-xl mx-auto mt-3">
+          <p className="text-base md:text-lg text-white max-w-xl mx-auto mt-3">
             Explore our handpicked selection of premium properties across Noida
           </p>
         </div>
@@ -217,10 +217,7 @@ const PropertiesSection: React.FC<PropertiesSectionProps> = ({
       </div>
 
       {/* Bottom Decoration */}
-    {/* Section End Image */}
-
-
-
+      {/* Section End Image */}
     </section>
   );
 };
