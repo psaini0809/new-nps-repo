@@ -102,7 +102,6 @@ const PropertiesSection: React.FC<PropertiesSectionProps> = ({
       ref={(el) => (sectionRefs.current.properties = el)}
       className="relative py-10 overflow-hidden"
     >
-   
       <div className="container mx-auto px-4 relative z-10">
         {/* Header */}
         <div
@@ -121,7 +120,7 @@ const PropertiesSection: React.FC<PropertiesSectionProps> = ({
               </span>
             </span>
           </h2>
-          <p className="text-base md:text-lg text-gray-400 max-w-xl mx-auto mt-3">
+          <p className="text-base md:text-lg text-white max-w-xl mx-auto mt-3">
             Explore our handpicked selection of premium properties across Noida
           </p>
         </div>
@@ -209,19 +208,17 @@ const PropertiesSection: React.FC<PropertiesSectionProps> = ({
       </div>
 
       {/* Bottom Decoration */}
-    {/* Section End Image */}
-         <div className="w-full flex mt-2 justify-end overflow-hidden leading-none">
-  <img
-    src={belowBg}
-    alt="Bottom Decoration"
-    className="
+      {/* Section End Image */}
+      <div className="w-full flex mt-2 justify-end overflow-hidden leading-none">
+        <img
+          src={belowBg}
+          alt="Bottom Decoration"
+          className="
       w-full
       h-auto object-cover opacity-90 transition-all duration-500
     "
-  />
-</div>
-
-
+        />
+      </div>
     </section>
   );
 };

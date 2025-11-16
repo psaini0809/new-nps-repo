@@ -8,12 +8,15 @@ interface CTASectionProps {
   sectionRefs: React.MutableRefObject<Record<string, HTMLElement | null>>;
 }
 
-const CTASection: React.FC<CTASectionProps> = ({ visibleSections, sectionRefs }) => {
+const CTASection: React.FC<CTASectionProps> = ({
+  visibleSections,
+  sectionRefs,
+}) => {
   return (
     <section
       id="cta"
       ref={(el) => (sectionRefs.current.cta = el)}
-      className="relative overflow-hidden py-24 "  // 🔥 Clean background
+      className="relative overflow-hidden py-24 " // 🔥 Clean background
     >
       {/* 🌟 Content */}
       <div className="container mx-auto px-6 text-center relative z-10">
@@ -28,8 +31,9 @@ const CTASection: React.FC<CTASectionProps> = ({ visibleSections, sectionRefs })
             Ready to Find Your Dream Property?
           </h2>
 
-          <p className="text-lg md:text-xl text-muted-foreground mb-10 leading-relaxed">
-            Our expert team is here to guide you every step of the way. Begin your journey with confidence today.
+          <p className="text-lg md:text-xl text-white text-muted-foreground mb-10 leading-relaxed">
+            Our expert team is here to guide you every step of the way. Begin
+            your journey with confidence today.
           </p>
 
           {/* 💎 Buttons */}

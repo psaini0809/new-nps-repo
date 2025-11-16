@@ -4,14 +4,16 @@ const founders = [
   {
     name: "Mr T  Chandra",
     role: "Founder & Managing Director",
-    image: "https://static.vecteezy.com/system/resources/thumbnails/048/818/198/small/confident-young-man-smiling-amongst-autumn-leaves-in-a-sunlit-park-photo.jpeg", // dummy image
+    image:
+      "https://static.vecteezy.com/system/resources/thumbnails/048/818/198/small/confident-young-man-smiling-amongst-autumn-leaves-in-a-sunlit-park-photo.jpeg", // dummy image
     quote:
       "Our vision is to redefine the real estate experience — making every client interaction transparent, rewarding, and memorable.",
   },
   {
     name: "Aishwarya Diwan",
     role: "Co-Founder & Operations Head",
-    image: "https://i.pinimg.com/236x/5c/eb/88/5ceb88e1706171e66fee4604c8178bcb.jpg", // dummy image
+    image:
+      "https://i.pinimg.com/236x/5c/eb/88/5ceb88e1706171e66fee4604c8178bcb.jpg", // dummy image
     quote:
       "We believe in building trust through consistency, innovation, and a deep understanding of our clients’ aspirations.",
   },
@@ -19,9 +21,7 @@ const founders = [
 
 const WordsFromFounders: React.FC = () => {
   return (
-    <section className="py-24  relative overflow-hidden"
-  
-    >
+    <section className="py-24  relative overflow-hidden">
       <div className="container mx-auto px-4 text-center">
         <h2 className="font-serif text-4xl font-bold mb-16">
           Words from our <span className="text-gold">Founders</span>
@@ -51,26 +51,26 @@ const WordsFromFounders: React.FC = () => {
 
               {/* Founder Info */}
               <h3 className="text-2xl font-semibold">{founder.name}</h3>
-              <p className="text-base text-muted-foreground font-medium">
+              <p className="text-base text-white text-muted-foreground font-medium">
                 {founder.role}
               </p>
-              <p className="text-muted-foreground leading-relaxed text-base max-w-sm italic">
+              <p className="text-muted-foreground text-white leading-relaxed text-base max-w-sm italic">
                 “{founder.quote}”
               </p>
             </div>
           ))}
         </div>
       </div>
-           <div className="w-full flex mt-2 justify-end overflow-hidden leading-none">
-  <img
-    src={belowBg}
-    alt="Bottom Decoration"
-    className="
+      <div className="w-full flex mt-2 justify-end overflow-hidden leading-none">
+        <img
+          src={belowBg}
+          alt="Bottom Decoration"
+          className="
       w-full
       h-auto object-cover opacity-90 transition-all duration-500
     "
-  />
-</div>
+        />
+      </div>
     </section>
   );
 };

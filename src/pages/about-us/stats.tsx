@@ -3,12 +3,8 @@ import GoldenParticles from "@/components/golden-particles";
 
 const StatsSection: React.FC = () => {
   return (
-    <section
-      className="relative py-20 overflow-hidden text-white"
-    
-    >
+    <section className="relative py-20 overflow-hidden text-white">
       {/* ✨ Floating Golden Particles */}
-
 
       <div className="container mx-auto px-4 relative z-10">
         {/* Heading */}
@@ -16,8 +12,9 @@ const StatsSection: React.FC = () => {
           <h2 className="font-serif text-4xl md:text-5xl font-bold text-white mb-4">
             Our <span className="text-gold">Achievements</span>
           </h2>
-          <p className="text-gray-300 text-lg max-w-2xl mx-auto">
-            A legacy of excellence, trust, and satisfaction built over the years.
+          <p className="text-white text-lg max-w-2xl mx-auto">
+            A legacy of excellence, trust, and satisfaction built over the
+            years.
           </p>
           {/* Glowing underline */}
           <div className="mx-auto mt-4 w-24 h-[2px] bg-gradient-to-r from-transparent via-gold to-transparent shadow-[0_0_10px_rgba(255,215,0,0.5)]"></div>
@@ -30,7 +27,7 @@ const StatsSection: React.FC = () => {
             <p className="text-5xl md:text-6xl font-bold text-gold mb-2 group-hover:scale-110 group-hover:text-yellow-300 transition-all duration-300 drop-shadow-[0_0_10px_rgba(255,215,0,0.3)]">
               15+
             </p>
-            <p className="text-sm md:text-base text-gray-300 tracking-wide">
+            <p className="text-sm md:text-base text-white tracking-wide">
               Years Experience
             </p>
           </div>
@@ -40,7 +37,7 @@ const StatsSection: React.FC = () => {
             <p className="text-5xl md:text-6xl font-bold text-gold mb-2 group-hover:scale-110 group-hover:text-yellow-300 transition-all duration-300 drop-shadow-[0_0_10px_rgba(255,215,0,0.3)]">
               100+
             </p>
-            <p className="text-sm md:text-base text-gray-300 tracking-wide">
+            <p className="text-sm md:text-base text-white tracking-wide">
               Properties Listed
             </p>
           </div>
@@ -50,7 +47,7 @@ const StatsSection: React.FC = () => {
             <p className="text-5xl md:text-6xl font-bold text-gold mb-2 group-hover:scale-110 group-hover:text-yellow-300 transition-all duration-300 drop-shadow-[0_0_10px_rgba(255,215,0,0.3)]">
               500+
             </p>
-            <p className="text-sm md:text-base text-gray-300 tracking-wide">
+            <p className="text-sm md:text-base text-white tracking-wide">
               Happy Clients
             </p>
           </div>
@@ -60,7 +57,7 @@ const StatsSection: React.FC = () => {
             <p className="text-5xl md:text-6xl font-bold text-gold mb-2 group-hover:scale-110 group-hover:text-yellow-300 transition-all duration-300 drop-shadow-[0_0_10px_rgba(255,215,0,0.3)]">
               20+
             </p>
-            <p className="text-sm md:text-base text-gray-300 tracking-wide">
+            <p className="text-sm md:text-base text-white tracking-wide">
               Expert Team
             </p>
           </div>

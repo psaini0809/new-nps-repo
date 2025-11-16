@@ -2,7 +2,6 @@ import React, { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
-
 interface Benefit {
   icon: React.ComponentType<React.SVGProps<SVGSVGElement>>;
   title: string;
@@ -45,12 +44,11 @@ const AboutSection: React.FC<AboutSectionProps> = ({
   }, [isHovered, currentIndex]);
 
   return (
-  <section
-  id="about"
-  ref={(el) => (sectionRefs.current.about = el)}
-  className="relative overflow-hidden flex flex-col items-center justify-center px-4 sm:px-6 md:px-10 min-h-[110vh]"
->
-
+    <section
+      id="about"
+      ref={(el) => (sectionRefs.current.about = el)}
+      className="relative overflow-hidden flex flex-col items-center justify-center px-4 sm:px-6 md:px-10 min-h-[110vh]"
+    >
       <div className="absolute inset-0 opacity-10 pointer-events-none">
         <div
           className="absolute inset-0"
@@ -77,7 +75,7 @@ const AboutSection: React.FC<AboutSectionProps> = ({
           </span>
         </h2>
 
-        <p className="text-base sm:text-lg md:text-xl text-gray-300 leading-relaxed px-2">
+        <p className="text-base sm:text-lg md:text-xl text-white leading-relaxed px-2">
           Leading real estate company specializing in premium property sales and
           purchases across Noida, Greater Noida, and Yamuna Expressway. We
           deliver excellence in every transaction.
@@ -145,12 +143,7 @@ const AboutSection: React.FC<AboutSectionProps> = ({
                     z,
                     scale,
                     opacity,
-                    rotateY:
-                      offset === 1
-                        ? -15
-                        : offset === total - 1
-                        ? 15
-                        : 0,
+                    rotateY: offset === 1 ? -15 : offset === total - 1 ? 15 : 0,
                   }}
                   transition={{ duration: 0.8, ease: "easeInOut" }}
                 >
@@ -161,7 +154,7 @@ const AboutSection: React.FC<AboutSectionProps> = ({
                     <h3 className="font-semibold text-lg sm:text-xl md:text-2xl mb-2 sm:mb-3 text-white">
                       {benefit.title}
                     </h3>
-                    <p className="text-gray-400 text-sm sm:text-base leading-relaxed px-2 sm:px-4">
+                    <p className="text-white text-sm sm:text-base leading-relaxed px-2 sm:px-4">
                       {benefit.desc}
                     </p>
                   </div>
@@ -179,10 +172,6 @@ const AboutSection: React.FC<AboutSectionProps> = ({
           <ChevronRight size={24} className="sm:w-8 sm:h-8" />
         </button>
       </div>
-
-
-
-
     </section>
   );
 };

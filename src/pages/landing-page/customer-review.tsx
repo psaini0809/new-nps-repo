@@ -13,29 +13,28 @@ const reviews: Review[] = [
     name: "Rahul Sharma",
     text: "Excellent experience! They guided me through every step of my property purchase with full transparency.",
     rating: 5,
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYMZ9uWkQZiC5nKxkfg7ggCA8rSsQxOcNItQ&s",  // Indian looking male
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYMZ9uWkQZiC5nKxkfg7ggCA8rSsQxOcNItQ&s", // Indian looking male
   },
   {
     name: "Priya Mehta",
     text: "Professional and reliable team! Their market knowledge helped me find the perfect home in Noida.",
     rating: 5,
-    image: "https://i.pinimg.com/736x/43/27/48/43274862e89b00565173a869cf6cfc48.jpg", // Indian looking female
+    image:
+      "https://i.pinimg.com/736x/43/27/48/43274862e89b00565173a869cf6cfc48.jpg", // Indian looking female
   },
   {
     name: "Amit Verma",
     text: "Top-notch service and great communication. I highly recommend Noida Property Solution to everyone!",
     rating: 5,
-    image: "https://ppf.org.in/assets/web/images/about/Photo_A_K_Das_DCPCR_PPF2.jpeg", // Indian looking male
+    image:
+      "https://ppf.org.in/assets/web/images/about/Photo_A_K_Das_DCPCR_PPF2.jpeg", // Indian looking male
   },
 ];
 
 const CustomerReviewsSection: React.FC = () => {
   return (
-    <section
-      className="relative flex flex-col items-center justify-center text-center py-24 px-6 md:px-16 overflow-hidden"
-      
-    >
-   
+    <section className="relative flex flex-col items-center justify-center text-center py-24 px-6 md:px-16 overflow-hidden">
       {/* 🌟 Background pattern */}
       <div className="absolute inset-0 opacity-10 pointer-events-none">
         <div
@@ -78,7 +77,7 @@ const CustomerReviewsSection: React.FC = () => {
             </div>
 
             {/* 💬 Review text */}
-            <p className="text-gray-300 text-lg leading-relaxed mb-6">
+            <p className="text-white text-lg leading-relaxed mb-6">
               “{review.text}”
             </p>
 

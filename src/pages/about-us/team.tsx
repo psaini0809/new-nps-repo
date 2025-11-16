@@ -5,7 +5,8 @@ const teamMembers = [
   {
     name: "Mr. T. Chandra",
     role: "Founder & Managing Director",
-    image: "https://static.vecteezy.com/system/resources/thumbnails/048/818/198/small/confident-young-man-smiling-amongst-autumn-leaves-in-a-sunlit-park-photo.jpeg",
+    image:
+      "https://static.vecteezy.com/system/resources/thumbnails/048/818/198/small/confident-young-man-smiling-amongst-autumn-leaves-in-a-sunlit-park-photo.jpeg",
   },
   {
     name: "Priya Mehta",
@@ -15,39 +16,39 @@ const teamMembers = [
   {
     name: "Sushil Kumar",
     role: "Senior Property Consultant",
-    image: "https://static.vecteezy.com/system/resources/thumbnails/049/174/246/small/a-smiling-young-indian-man-with-formal-shirts-outdoors-photo.jpg",
+    image:
+      "https://static.vecteezy.com/system/resources/thumbnails/049/174/246/small/a-smiling-young-indian-man-with-formal-shirts-outdoors-photo.jpg",
   },
   {
     name: "Harsh Garg",
     role: "Marketing Lead",
-    image: "https://www.kalkifashion.com/blogs/wp-content/uploads/2023/11/Evolution_of_Indian_Mens_Ethnic_Wear_From_Tradition_to_Trendy.jpg",
+    image:
+      "https://www.kalkifashion.com/blogs/wp-content/uploads/2023/11/Evolution_of_Indian_Mens_Ethnic_Wear_From_Tradition_to_Trendy.jpg",
   },
   {
     name: "Gaurav Marothiya",
     role: "Client Relations Manager",
-    image: "https://cdn.pixabay.com/photo/2022/03/11/06/14/indian-man-7061278_1280.jpg",
+    image:
+      "https://cdn.pixabay.com/photo/2022/03/11/06/14/indian-man-7061278_1280.jpg",
   },
   {
     name: "Rahul Singh",
     role: "Legal Advisor",
-    image: "https://img.freepik.com/free-photo/front-view-indian-man-posing-studio_23-2150692695.jpg?semt=ais_hybrid&w=740&q=80",
+    image:
+      "https://img.freepik.com/free-photo/front-view-indian-man-posing-studio_23-2150692695.jpg?semt=ais_hybrid&w=740&q=80",
   },
 ];
 
 const TeamSection: React.FC = () => {
   return (
-    <section
-      className="relative py-20 overflow-hidden text-white"
-      
-    >
-
+    <section className="relative py-20 overflow-hidden text-white">
       <div className="container mx-auto px-4 relative z-10">
         {/* Section Heading */}
         <div className="text-center mb-16">
           <h2 className="font-serif text-4xl md:text-5xl font-bold mb-4 text-white">
             Meet Our <span className="text-gold">Team</span>
           </h2>
-          <p className="text-gray-300 max-w-2xl mx-auto text-lg">
+          <p className="text-white   max-w-2xl mx-auto text-lg">
             Our experienced professionals bring years of real estate expertise,
             dedication, and trust to help you find your dream property.
           </p>
@@ -78,7 +79,7 @@ const TeamSection: React.FC = () => {
                 <h3 className="font-semibold text-xl text-white group-hover:text-gold transition-all">
                   {member.name}
                 </h3>
-                <p className="text-sm text-gray-400">{member.role}</p>
+                <p className="text-sm text-white">{member.role}</p>
               </div>
             ))}
           </div>
@@ -101,4 +102,3 @@ const TeamSection: React.FC = () => {
 };
 
 export default TeamSection;
- 
