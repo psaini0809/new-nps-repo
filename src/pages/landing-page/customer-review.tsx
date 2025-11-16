@@ -34,7 +34,25 @@ const reviews: Review[] = [
 
 const CustomerReviewsSection: React.FC = () => {
   return (
+<<<<<<< HEAD
     <section className="relative flex flex-col items-center justify-center text-center py-24 px-6 md:px-16 overflow-hidden">
+=======
+    <section
+      className="relative flex flex-col items-center justify-center text-center py-24 px-6 md:px-16 overflow-hidden"
+      style={{
+        background:
+          "radial-gradient(circle at center, rgba(20,20,20,1) 0%, rgba(5,5,5,1) 100%)",
+      }}
+    >
+      <video
+        src={bgvideo}
+        autoPlay
+        loop
+        muted
+        playsInline
+        className="absolute inset-0 w-full h-full object-cover opacity-80"
+      />
+>>>>>>> ea538497ceb2c4d776ae229a7ec29a1efb60d81e
       {/* 🌟 Background pattern */}
       <div className="absolute inset-0 opacity-10 pointer-events-none">
         <div

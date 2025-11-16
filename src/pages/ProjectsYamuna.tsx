@@ -23,9 +23,10 @@ const ProjectsYamuna = () => {
 
   return (
     <div className="min-h-screen flex flex-col">
-      <Navigation /> 
-      <SocialSidebar/>
+      <Navigation />
+      <SocialSidebar />
       <main className="flex-1">
+<<<<<<< HEAD
          <div className="fixed inset-0 -z-20 h-screen w-screen overflow-hidden">
         <video
           src={bgvideo}
@@ -61,6 +62,40 @@ const ProjectsYamuna = () => {
 
         {/* Overview */}
     
+=======
+        <section
+          className="relative text-primary-foreground py-20 shadow-lg bg-cover bg-center bg-no-repeat"
+          style={{ backgroundImage: `url(${bg1})` }}
+        >
+          <div className="container mx-auto px-4 text-center">
+            <h1 className="font-serif text-white text-4xl md:text-5xl font-bold mb-4 drop-shadow-lg">
+              Our Properties in{" "}
+              <span className="text-gold bg-gradient-to-r from-gold to-yellow-300 bg-clip-text text-transparent animate-shimmer bg-[length:200%_100%]">
+                Yamuna Expressway
+              </span>
+            </h1>
+            <p className="text-lg text-white max-w-2xl mx-auto">
+              Luxury estates and premium properties along Yamuna Expressway
+            </p>
+          </div>
+        </section>
+
+        {/* Overview */}
+        <section className="py-12">
+          <div className="container mx-auto px-4">
+            <div className="max-w-3xl mx-auto">
+              <p className="text-lg text-white text-muted-foreground leading-relaxed text-center">
+                Yamuna Expressway corridor is the new frontier of luxury real
+                estate development. With world-class connectivity, upcoming
+                infrastructure projects, and strategic location, our properties
+                along Yamuna Expressway offer unmatched investment opportunities
+                and lifestyle benefits.
+              </p>
+            </div>
+          </div>
+        </section>
+
+>>>>>>> ea538497ceb2c4d776ae229a7ec29a1efb60d81e
         {/* Properties */}
         <section className="py-16">
           <div className="container mx-auto px-4">
@@ -71,6 +106,7 @@ const ProjectsYamuna = () => {
             </div>
           </div>
         </section>
+<<<<<<< HEAD
                      <div className="w-full flex mt-10 justify-end overflow-hidden leading-none">
   <img
     src={belowBg}
@@ -78,6 +114,15 @@ const ProjectsYamuna = () => {
     className="w-full h-auto object-cover opacity-90"
   />
 </div>
+=======
+        <div className="w-full flex mt-10 justify-end overflow-hidden leading-none">
+          <img
+            src={belowBg}
+            alt="Bottom Decoration"
+            className="w-[350px] md:w-[500px] h-auto object-cover opacity-90"
+          />
+        </div>
+>>>>>>> ea538497ceb2c4d776ae229a7ec29a1efb60d81e
       </main>
 
       <Footer />

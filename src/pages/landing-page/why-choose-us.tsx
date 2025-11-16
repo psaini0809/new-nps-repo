@@ -36,6 +36,17 @@ const WhyChooseSection: React.FC<WhyChooseSectionProps> = ({
       ref={(el) => (sectionRefs.current["why-choose"] = el)}
       className="relative py-24 text-white overflow-hidden"
     >
+<<<<<<< HEAD
+=======
+      <video
+        src={bgvideo}
+        autoPlay
+        loop
+        muted
+        playsInline
+        className="absolute inset-0 w-full h-full object-cover opacity-80"
+      />
+>>>>>>> ea538497ceb2c4d776ae229a7ec29a1efb60d81e
       {/* Floating Gold Glows */}
       <div className="absolute inset-0 opacity-20 pointer-events-none">
         <div className="absolute top-24 left-12 w-72 h-72 bg-gold/60 rounded-full blur-3xl animate-pulse-slow" />

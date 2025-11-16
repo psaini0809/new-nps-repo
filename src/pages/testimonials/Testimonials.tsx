@@ -91,7 +91,11 @@ const Testimonials: React.FC = () => {
           <img
             src={belowBg}
             alt="Bottom Decoration"
+<<<<<<< HEAD
             className="w-full h-auto object-cover opacity-90"
+=======
+            className="w-[350px] md:w-[500px] h-auto object-cover opacity-90"
+>>>>>>> ea538497ceb2c4d776ae229a7ec29a1efb60d81e
           />
         </div>
       </main>

@@ -8,6 +8,12 @@ import belowBg from "@/assets/belowwbg.png";
 const OurCoreValues: React.FC = () => {
   return (
     <section className="relative py-20 overflow-hidden text-white">
+<<<<<<< HEAD
+=======
+      {/* ✨ Floating Golden Particles */}
+      <GoldenParticles />
+
+>>>>>>> ea538497ceb2c4d776ae229a7ec29a1efb60d81e
       <div className="container mx-auto px-4 relative z-10">
         {/* Heading */}
         <div className="text-center mb-16">
@@ -85,7 +91,11 @@ const OurCoreValues: React.FC = () => {
           src={belowBg}
           alt="Bottom Decoration"
           className="
+<<<<<<< HEAD
       w-full
+=======
+      w-[220px] sm:w-[300px] md:w-[400px] lg:w-[500px]
+>>>>>>> ea538497ceb2c4d776ae229a7ec29a1efb60d81e
       h-auto object-cover opacity-90 transition-all duration-500
     "
         />

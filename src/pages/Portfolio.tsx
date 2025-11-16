@@ -115,6 +115,11 @@ const Portfolio = () => {
         className="flex-1"
         style={{
           minHeight: "120vh",
+<<<<<<< HEAD
+=======
+          background:
+            "radial-gradient(circle at center, rgba(50,50,50,1) 0%, rgba(5,5,5,1) 100%)",
+>>>>>>> ea538497ceb2c4d776ae229a7ec29a1efb60d81e
         }}
       >
         {/* Header */}
@@ -199,7 +204,11 @@ const Portfolio = () => {
                     <h3 className="font-serif text-xl font-semibold group-hover:text-gold transition-colors">
                       {project.title}
                     </h3>
+<<<<<<< HEAD
                     <p className="text-sm text-white text-muted-foreground leading-relaxed">
+=======
+                    <p className="text-sm text-muted-foreground leading-relaxed">
+>>>>>>> ea538497ceb2c4d776ae229a7ec29a1efb60d81e
                       {project.description}
                     </p>
                   </div>
@@ -216,7 +225,11 @@ const Portfolio = () => {
                 <p className="text-4xl font-bold text-gold mb-2">
                   {counters.completed}+
                 </p>
+<<<<<<< HEAD
                 <p className="text-sm text- white text-white text-muted-foreground">
+=======
+                <p className="text-sm text-muted-foreground">
+>>>>>>> ea538497ceb2c4d776ae229a7ec29a1efb60d81e
                   Completed Projects
                 </p>
               </div>
@@ -224,7 +237,11 @@ const Portfolio = () => {
                 <p className="text-4xl font-bold text-gold mb-2">
                   {counters.ongoing}+
                 </p>
+<<<<<<< HEAD
                 <p className="text-sm text-white  text-muted-foreground">
+=======
+                <p className="text-sm text-muted-foreground">
+>>>>>>> ea538497ceb2c4d776ae229a7ec29a1efb60d81e
                   Ongoing Projects
                 </p>
               </div>
@@ -232,15 +249,23 @@ const Portfolio = () => {
                 <p className="text-4xl font-bold text-gold mb-2">
                   {counters.units}+
                 </p>
+<<<<<<< HEAD
                 <p className="text-sm text-white text-muted-foreground">
                   Units Delivered
                 </p>
+=======
+                <p className="text-sm text-muted-foreground">Units Delivered</p>
+>>>>>>> ea538497ceb2c4d776ae229a7ec29a1efb60d81e
               </div>
               <div className="hover:scale-105 transition-transform duration-300">
                 <p className="text-4xl font-bold text-gold mb-2">
                   {counters.delivery}%
                 </p>
+<<<<<<< HEAD
                 <p className="text-sm text-white text-muted-foreground">
+=======
+                <p className="text-sm text-muted-foreground">
+>>>>>>> ea538497ceb2c4d776ae229a7ec29a1efb60d81e
                   On-Time Delivery
                 </p>
               </div>
@@ -251,7 +276,11 @@ const Portfolio = () => {
           <img
             src={belowBg}
             alt="Bottom Decoration"
+<<<<<<< HEAD
             className="w-full h-auto object-cover opacity-90"
+=======
+            className="w-[350px] md:w-[500px] h-auto object-cover opacity-90"
+>>>>>>> ea538497ceb2c4d776ae229a7ec29a1efb60d81e
           />
         </div>
       </main>

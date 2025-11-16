@@ -49,6 +49,21 @@ const AboutSection: React.FC<AboutSectionProps> = ({
       ref={(el) => (sectionRefs.current.about = el)}
       className="relative overflow-hidden flex flex-col items-center justify-center px-4 sm:px-6 md:px-10 min-h-[110vh]"
     >
+<<<<<<< HEAD
+=======
+      {/* 🔥 Background Video */}
+      <video
+        src={bgvideo}
+        autoPlay
+        loop
+        muted
+        playsInline
+        className="absolute inset-0 w-full h-full object-cover opacity-80"
+      />
+
+      {/* ✨ Background Pattern */}
+      <GoldenParticles />
+>>>>>>> ea538497ceb2c4d776ae229a7ec29a1efb60d81e
       <div className="absolute inset-0 opacity-10 pointer-events-none">
         <div
           className="absolute inset-0"

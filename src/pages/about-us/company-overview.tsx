@@ -23,6 +23,11 @@ const fadeRight = {
 const CompanyOverview: React.FC = () => {
   return (
     <section className="relative py-20 text-white overflow-hidden">
+<<<<<<< HEAD
+=======
+      <GoldenParticles />
+
+>>>>>>> ea538497ceb2c4d776ae229a7ec29a1efb60d81e
       <div className="container mx-auto px-4">
         <motion.div
           className="grid grid-cols-1 md:grid-cols-2 gap-12 items-start"
@@ -65,7 +70,11 @@ const CompanyOverview: React.FC = () => {
               exceed expectations.
             </p>
 
+<<<<<<< HEAD
             <p className="text-lg md:text-xl text-white leading-relaxed">
+=======
+            <p className="text-lg md:text-xl text-gray-300 leading-relaxed">
+>>>>>>> ea538497ceb2c4d776ae229a7ec29a1efb60d81e
               With <span className="text-gold font-semibold">NPS Estates</span>,
               you don’t just get a property — you gain a trusted partner
               dedicated to turning your real estate dreams into reality.
@@ -107,7 +116,11 @@ const CompanyOverview: React.FC = () => {
           src={belowBg}
           alt="Bottom Decoration"
           className="
+<<<<<<< HEAD
     w-full
+=======
+      w-[220px] sm:w-[300px] md:w-[400px] lg:w-[500px]
+>>>>>>> ea538497ceb2c4d776ae229a7ec29a1efb60d81e
       h-auto object-cover opacity-90 transition-all duration-500
     "
         />

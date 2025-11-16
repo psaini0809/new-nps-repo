@@ -102,6 +102,17 @@ const PropertiesSection: React.FC<PropertiesSectionProps> = ({
       ref={(el) => (sectionRefs.current.properties = el)}
       className="relative py-10 overflow-hidden"
     >
+<<<<<<< HEAD
+=======
+      <video
+        src={bgvideo}
+        autoPlay
+        loop
+        muted
+        playsInline
+        className="absolute inset-0 w-full h-full object-cover opacity-80"
+      />
+>>>>>>> ea538497ceb2c4d776ae229a7ec29a1efb60d81e
       <div className="container mx-auto px-4 relative z-10">
         {/* Header */}
         <div
@@ -209,6 +220,7 @@ const PropertiesSection: React.FC<PropertiesSectionProps> = ({
 
       {/* Bottom Decoration */}
       {/* Section End Image */}
+<<<<<<< HEAD
       <div className="w-full flex mt-2 justify-end overflow-hidden leading-none">
         <img
           src={belowBg}
@@ -219,6 +231,8 @@ const PropertiesSection: React.FC<PropertiesSectionProps> = ({
     "
         />
       </div>
+=======
+>>>>>>> ea538497ceb2c4d776ae229a7ec29a1efb60d81e
     </section>
   );
 };
